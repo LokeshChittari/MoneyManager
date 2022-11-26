@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.app-container {
+  /* height: 100vh; */
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.money-details-container {
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.user-name-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: Roboto;
+  margin-bottom: 40px;
+}
+
+.user-name {
+  color: #475569;
+}
+
+.welcome-message {
+  color: #475569;
+}
+
+.title-name {
+  color: #0b69ff;
+}
+
+.add-transaction-section {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+
+.form-heading {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 20px;
+}
+
+.label {
+  font-family: Roboto;
+  color: #7e858e;
+  font-size: 14px;
+}
+
+.input-field {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  color: #1e293b;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.button {
+  border-width: 0;
+  background-color: #0b69ff;
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.transaction-history-section {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+.transaction-history-heading {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 20px;
+}
+
+.transactions-history-table {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  /* padding: 15px; */
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.table-headings-row {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    padding: 8%;
+  }
+  .user-name-section {
+    text-align: left;
+  }
+  .money-details-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .transaction-operating-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .add-transaction-section {
+    width: 40%;
+  }
+  .transaction-history-section {
+    width: 50%;
+    margin-top: 50px;
+  }
+}

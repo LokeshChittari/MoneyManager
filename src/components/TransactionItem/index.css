@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.transactions-data {
+  border-top: 1px solid #cbd5e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.delete-button {
+  border-width: 0;
+  background-color: transparent;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}

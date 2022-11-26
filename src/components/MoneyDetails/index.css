@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.money-details-item {
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.balance {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+
+.income {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expenses {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+.balance-image {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #84cc16;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.income-image {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #06b6d4;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.expenses-image {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #7c3aed;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.money-item-heading {
+  font-family: Roboto;
+  color: #475569;
+}
+
+.money-item-amount {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-item {
+    margin-right: 20px;
+  }
+}
